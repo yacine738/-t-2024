@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style src="style.css">
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <h2 class="text-center">QR Code Generator</h2>
+        <center>
+            <img src="" id="img" alt="QR Code">
+        </center>
+        <select id="size" class="form-control">
+            <option value="100">100x100</option>
+            <option value="150">150x150</option>
+            <option value="200">200x200</option>
+            <option value="250" selected>250x250</option>
+            <option value="300">300x300</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Enter your text" id="qrtext" class="form-control"></textarea>
+        <br><br>
+        <button class="btn btn-primary" onclick="genQR()">
+            <i class="fa fa-qrcode"></i> Generate
+        </button>
+        <p class="text-center"><strong>Developed by Mohamed Yassine Souissi</strong></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
