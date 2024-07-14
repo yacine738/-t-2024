@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favicon Grabber</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style src="style.css">
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 grid">
+        <h2>Favicon Grabber</h2>
+        <center> <img src="" id="theimg"> </center>
+        <select id="size" class="form-control">
+          <option value="default">Default Size</option>
+          <option value="16">16x16</option>
+          <option value="32">32x32</option>
+          <option value="48">48x48</option>
+          <option value="64">64x64</option>
+          <option value="128">128x128</option>
+        </select>
+        <input type="text" placeholder="Enter URL" id="urltext" class="form-control">
+        <br><br>
+        <input type="submit" value="Grab" onclick="startIT()" class="btn btn-success">
+        <p>Developed By mohamed yassine souissi</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
