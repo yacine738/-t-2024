@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "zuul.routes.restaurant-service.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.restaurant-service.path'"
+  },
+  {
+    "name": "zuul.routes.restaurant-service.serviceId",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.restaurant-service.serviceId'"
+  },
+  {
+    "name": "zuul.routes.kitchen-service.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.kitchen-service.path'"
+  },
+  {
+    "name": "zuul.routes.kitchen-service.serviceId",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.kitchen-service.serviceId'"
+  }
+]}
