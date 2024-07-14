@@ -1,0 +1,67 @@
+{"properties": [
+  {
+    "name": "zuul.routes.Order.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Order.path'"
+  },
+  {
+    "name": "zuul.routes.Order.url",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Order.url'"
+  },
+  {
+    "name": "zuul.routes.Kitchen.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Kitchen.path'"
+  },
+  {
+    "name": "zuul.routes.Kitchen.url",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Kitchen.url'"
+  },
+  {
+    "name": "zuul.routes.Restaurant.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Restaurant.path'"
+  },
+  {
+    "name": "zuul.routes.Restaurant.url",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Restaurant.url'"
+  },
+  {
+    "name": "zuul.routes.Courier.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Courier.path'"
+  },
+  {
+    "name": "zuul.routes.Courier.url",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Courier.url'"
+  },
+  {
+    "name": "zuul.routes.Delivery.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Delivery.path'"
+  },
+  {
+    "name": "zuul.routes.Delivery.url",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.Delivery.url'"
+  },
+  {
+    "name": "zuul.routes.ConsumerService",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.ConsumerService'"
+  },
+  {
+    "name": "zuul.routes.path",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.path'"
+  },
+  {
+    "name": "zuul.routes.url",
+    "type": "java.lang.String",
+    "description": "A description for 'zuul.routes.url'"
+  }
+]}
